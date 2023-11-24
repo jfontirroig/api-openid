@@ -4,7 +4,7 @@
     "keycloak_realm": "novasys",
     "keycloak_client": "name_app",
     "keycloak_client_secret": "edc34f71-985c-4a76-8e92-5a1c19a9dd3b",
-    "keycloak_client_admin": "admin-cli",
+    "keycloak_client_admin": "admin",
     "keycloak_client_admin_secret": "100c718e-9733-4f6e-b694-1b6bd5f35617",
     "winstonConsoleTransport": {
         "level": "info",
