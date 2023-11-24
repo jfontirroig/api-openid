@@ -53,9 +53,9 @@
         "api-openid": "lib/index.js"
     },
     "scripts": {
-        "start": "API_OPENID_CONFIG=/home/paradigma/api-openid/config-api_openid.json sudo npm run build && node lib/index.js sudo npm run start",
-        "start:regtest": "API_OPENID_DEVELOP=/home/paradigma/api-openid/config-develop.json API_OPENID_REGTEST=true sudo npm run start",
-        "build": "API_OPENID_CONFIG=/home/paradigma/api-openid/config-api_openid.json babel src -d lib",
+        "start": "API_OPENID_CONFIG=/home/api-openid/config-api_openid.json sudo npm run build && node lib/index.js sudo npm run start",
+        "start:regtest": "API_OPENID_DEVELOP=/home/api-openid/config-develop.json API_OPENID_REGTEST=true sudo npm run start",
+        "build": "API_OPENID_CONFIG=/home/api-openid/config-api_openid.json babel src -d lib",
         "flow": "flow",
         "lint": "eslint src",
         "lint:fix": "eslint src --fix",
@@ -74,12 +74,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/paradigma-cl/api-openid.git"
+        "url": "https://github.com/jfontirroig/api-openid"
     },
     "author": {
-        "name": "Paradigma Global",
-        "email": "info@paradigma.global",
-        "url": "https://paradigma.global"
+        "name": "José Fontirroig",
+        "email": "jfontirroig@gmail.com"
     },
     "license": "MIT",
     "contributors": [
@@ -88,9 +87,9 @@
         }
     ],
     "bugs": {
-        "url": "https://github.com/paradigma-cl/api-openid/issues"
+        "url": "https://github.com/jfontirroig/api-openid/issues"
     },
-    "homepage": "https://github.com/paradigma-cl/api-openid#readme",
+    "homepage": "https://github.com/jfontirroig/api-openid#readme",
     "commitlint": {
         "extends": [
             "@commitlint/config-conventional"
