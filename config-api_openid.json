@@ -1,0 +1,17 @@
+{
+    "port": 3090,
+    "keycloak_url": "http://190.113.12.16:8080",
+    "keycloak_realm": "paradigma",
+    "keycloak_client": "crosscheck",
+    "keycloak_client_secret": "edc34f71-985c-4a76-8e92-5a1c19a9dd3b",
+    "keycloak_client_admin": "admin-cli",
+    "keycloak_client_admin_secret": "100c718e-9733-4f6e-b694-1b6bd5f35617",
+    "winstonConsoleTransport": {
+        "level": "info",
+        "handleExceptions": false,
+        "timestamp": true,
+        "stringify": true,
+        "colorize": true,
+        "json": false
+    }
+ }
